@@ -2,7 +2,7 @@
 
 This action log common PR Data to firebase
 
-```
+```txt
 Afrisal : Not to be confused with @afrishal, Accommodation FRontend Integration System for ALl. (pun intended)
 ```
 
@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Log PR data
         id: hello
-        uses: traveloka/afrisal-pr-tracker-action@v0.1
+        uses: fawwaz/afrisal-pr-tracker-action@v0.2
         with:
           firebase-project-id: "${{ secrets.FIREBASE_PROJECT_ID }}"
           firebase-private-key-id: "${{ secrets.FIREBASE_PRIVATE_KEY_ID }}"
