@@ -75,8 +75,8 @@ FIREBASE_CLIENT_X509_CERT_URL
 
 Pull request are welcomed
 
-[ ] Fix issue when there is untracked PR got reviewed. It will throw exception as this action try to `update` a firebase path that doesn't exist before.
-[ ] Multiple Reviews, currently the action only assume that there is only one reviewer which is wrong assumption given in `www` repo usually need multiple review from different teams.
-[ ] Proper storage while also consider a fair cost. I use my `personal` firebase account to log the data as I believe the free plan of firebase is more than enough to track the data. Provisioning dedicated RDS seems a bit overkill, while at the same time I believe there is a bettter solution over this `personal firebase` storage.
-[ ] Create a proper dashboard to display/visualize the data.
-[ ] Integration with `@afrisal` slack bot . Like sending reminder to fellow team member to review the PR
+- [ ] Fix issue when there is untracked PR got reviewed. It will throw exception as this action try to `update` a firebase path that doesn't exist before.
+- [ ] Multiple Reviews, currently the action only assume that there is only one reviewer which is wrong assumption given in `www` repo usually need multiple review from different teams.
+- [ ] Proper storage while also consider a fair cost. I use my `personal` firebase account to log the data as I believe the free plan of firebase is more than enough to track the data. Provisioning dedicated RDS seems a bit overkill, while at the same time I believe there is a bettter solution over this `personal firebase` storage.
+- [ ] Create a proper dashboard to display/visualize the data.
+- [ ] Integration with `@afrisal` slack bot . Like sending reminder to fellow team member to review the PR
