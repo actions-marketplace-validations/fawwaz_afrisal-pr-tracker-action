@@ -1,0 +1,49 @@
+name: "Hello World Fawwaz"
+description: "Greet someone and record the time"
+inputs:
+  firebase-project-id:
+    description: "firebase-project-id"
+    required: true
+    default: ""
+  firebase-private-key-id:
+    description: "firebase-private-key-id"
+    required: true
+    default: ""
+  firebase-private-key:
+    description: "firebase-private-key"
+    required: true
+    default: ""
+  firebase-client-email:
+    description: "firebase-client-email"
+    required: true
+    default: ""
+  firebase-client-id:
+    description: "firebase-client-id"
+    required: true
+    default: ""
+  firebase-auth-uri:
+    description: "firebase-auth-uri"
+    required: true
+    default: ""
+  firebase-token-uri:
+    description: "firebase-token-uri"
+    required: true
+    default: ""
+  firebase-auth-provider-x-509-cert-url:
+    description: "firebase-auth-provider-x-509-cert-url"
+    required: true
+    default: ""
+  firebase-client-x-509-cert-url:
+    description: "firebase-client-x-509-cert-url"
+    required: true
+    default: ""
+  organization-name:
+    description: "Organization name you are listening to"
+    required: true
+    default: ""
+outputs:
+  time: # id of output
+    description: "The time we greeted you"
+runs:
+  using: "node12"
+  main: "index.js"
